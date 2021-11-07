@@ -1,0 +1,106 @@
+
+/* fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/* all document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* formulário de cadastrar e entrar */
+
+.form-signin {
+  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 20px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: left;
+  color: #503847;
+}
+
+.form-signin .form-control {
+  margin-bottom: 4px;
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+  background-color: #fcd3d9;
+  border: solid;
+  border-color: #FFA0AD;
+  border-width: 2px;
+  color: black;
+}
+
+.form-signin input {
+  border-radius: 5px;
+  background-color: #FFF0F5;
+}
+
+.form-signin input:hover {
+  background-color: #fcd3d9;
+}
+
+.link-cadastrar, .termos {
+  font-size: 14px;
+  color: #fcd3d9;
+}
+
+#body-entrar, #body-cadastrar {
+  background-image: linear-gradient(#FFD5D5, #ff6176);
+}
+
+button[type="submit"] {
+  background-color: #da233d;
+  color: antiquewhite;
+}
+
+button[type="submit"]:hover {
+  color: rgb(117, 196, 241);
+}
+
+.link-cadastrar:hover, .termos:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.carousel-image {
+  height: 60vh;
+}
+
+.voltar {
+  height: 1vh;
+}
+
+.seta-voltar {
+  margin-top: 10px;
+  margin-left: 12px;
+  height: 15vh;
+  width: auto;
+}
+
+.navbar-expand-lg {
+  background-color: rgb(224, 92, 114);
+}
